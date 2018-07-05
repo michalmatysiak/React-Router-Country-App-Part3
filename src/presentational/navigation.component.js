@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const Navigation = props => (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
                 <button
                     className="navbar-toggler"
@@ -20,7 +20,7 @@ const Navigation = props => (
                     <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <Link className="navbar-brand" to="/">
+                    <Link className="navbar-brand" to="/navi">
                         Państwa.js
                     </Link>
 

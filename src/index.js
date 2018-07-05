@@ -7,6 +7,7 @@ import store from './store';
 import { getCountries } from './actions/actions-countries';
 import routes from './routes';
 import DevTools from './DevTools';
+import  './country.css';
 
 ReactDOM.render(
 	<Provider store={store}>

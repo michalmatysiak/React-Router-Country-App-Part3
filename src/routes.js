@@ -7,11 +7,13 @@ import NotFound from './presentational/not-found.component';
 import CountryFlagContainer from './containers/flag-container.component';
 import CountryDetailsContainer from './containers/country-detail-container.component';
 import ContinentsContainer from './containers/continents-container.component';
+import Navi from './presentational/navi.component';
 
 
 export default (
 	<Route path='/' component={Navigation}>
-		<IndexRoute component={Home}/>
+		<Route path='Navi' component={Navi}/>
+		<Route path='Home' component={Home}/>
 		<Route path='countries' >
 			<IndexRoute component={CountryFlagContainer}/>
 			<Route path='country/:id' component={CountryDetailsContainer}/>
